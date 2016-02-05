@@ -7,10 +7,13 @@ $light-green: #88C445;
 $dark-green: #6A9D36;
 $purple: #4C4C5E;
 $dark-blue: #252C37;
+$yellow: #FFDB7C;
 $primary-dark: #03475A;
 $primary-dark: #03475A;
 $primary-dark: #03475A;
 $primary-dark: #03475A;
+
+
 
 html,
 body,
@@ -49,9 +52,28 @@ body,
 .fortune,
 .roller,
 .stage,
+.crowd,
 .cloud,
-.city{
+.city,
+.balloons{
   position: absolute
+}
+
+.cloud{
+	width: 70px;
+}
+
+.cloud1{
+	left:30%;
+	top: 40px;
+}
+.cloud2{
+	right:30%;
+	top: 90px;
+}
+.cloud3{
+	left:20;
+	top: 150px;
 }
 
 .kid {
@@ -79,6 +101,63 @@ body,
 	bottom: 200px;
 }
 
+.stage{
+	width:100px;
+	left:20px;
+	bottom: 180px;
+}
+
+.crowd{
+	width:100px;
+	left:20px;
+	bottom: 150px;
+}
+
+.balloons {
+	width:120px;
+	top: 20px;
+	left: 50%;
+}
+
+.heading{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	color: $primary-dark;
+}
+.btn-informes{
+	background-color: $yellow;
+	position: absolute;
+	top: 260px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.growl{
+	font-family: "growl";
+}
+
+
+
+@media (min-width: 667px){
+	.kid{
+ 		left: 40%;
+ 	}
+
+ 	.dog{
+ 		left:60%;
+ 	}
+
+
+ 	.fortune{
+	bottom: 200px;
+	left: 50%;
+	width: 130px;
+}
+
+
+}
+
 @media (min-width: 768px) {
  	.kid{
  		left: 50%;
@@ -87,6 +166,26 @@ body,
  	.dog{
  		left:60%;
  	}
+
+
+ 	.fortune{
+	bottom: 200px;
+	left: 50%;
+	width: 130px;
+}
+
+	.stage{
+	width:300px;
+	left:20px;
+	bottom: 180px;
+}
+
+ .crowd{
+	width:200px;
+	left:65px;
+	bottom: 120px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -103,6 +202,26 @@ body,
 	left: 50%;
 	width: 180px;
 }
+
+	.stage{
+	width:400px;
+	left:20px;
+	bottom: 180px;
+}
+
+.crowd{
+	width:300px;
+	left:65px;
+	bottom: 80px;}
+
+.heading{
+	width: 30%;
+	text-align: left;
+	top: 150px;
+	right: 10px;
+	
+}
+
 }
 @media (min-width: 1200px) {
 
