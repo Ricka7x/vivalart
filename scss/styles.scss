@@ -1,3 +1,109 @@
-h1 {
-	color: black;
+// colors 
+
+
+$primary-light: #3BA2CB;
+$primary-dark: #03475A;
+$light-green: #88C445;
+$dark-green: #6A9D36;
+$purple: #4C4C5E;
+$dark-blue: #252C37;
+$primary-dark: #03475A;
+$primary-dark: #03475A;
+$primary-dark: #03475A;
+$primary-dark: #03475A;
+
+html,
+body,
+.main {
+	height: 100%;
+}
+
+
+.navbar-default {
+	background-color: $primary-light;
+	font-size:1.2em;
+	margin: 0;
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: $primary-dark;
+}
+.logo{
+	width: 100%;
+}
+
+.menu {
+	font-family: "growl";
+	letter-spacing: -6px;
+}
+.main .hero {
+	background-color: $primary-light;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.kid,
+.dog,
+.fortune,
+.roller,
+.stage,
+.cloud,
+.city{
+  position: absolute
+}
+
+.kid {
+	width: 100px;
+	left: 20%;
+	bottom: 10%;
+}
+.dog {
+	width: 110px;
+	left: 50%;
+	bottom: 10%;
+}
+
+.fortune{
+	bottom:200px;
+	left: 50%;
+	width: 80px;
+}
+
+.city{
+	bottom: 200px;
+}
+
+.roller{
+	bottom: 200px;
+}
+
+@media (min-width: 768px) {
+ 	.kid{
+ 		left: 50%;
+ 	}
+
+ 	.dog{
+ 		left:60%;
+ 	}
+}
+
+@media (min-width: 992px) {
+	.kid{
+ 		left: 60%;
+ 	}
+
+ 	.dog{
+ 		left:70%;
+ 	}
+
+ 	.fortune{
+	bottom:200px;
+	left: 50%;
+	width: 180px;
+}
+}
+@media (min-width: 1200px) {
+
 }

@@ -1,2 +1,74 @@
-h1 {
-  color: black; }
+html,
+body,
+.main {
+  height: 100%; }
+
+.navbar-default {
+  background-color: #3BA2CB;
+  font-size: 1.2em;
+  margin: 0;
+  border: none; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #03475A; }
+
+.logo {
+  width: 100%; }
+
+.menu {
+  font-family: "growl";
+  letter-spacing: -6px; }
+
+.main .hero {
+  background-color: #3BA2CB;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.kid,
+.dog,
+.fortune,
+.roller,
+.stage,
+.cloud,
+.city {
+  position: absolute; }
+
+.kid {
+  width: 100px;
+  left: 20%;
+  bottom: 10%; }
+
+.dog {
+  width: 110px;
+  left: 50%;
+  bottom: 10%; }
+
+.fortune {
+  bottom: 200px;
+  left: 50%;
+  width: 80px; }
+
+.city {
+  bottom: 200px; }
+
+.roller {
+  bottom: 200px; }
+
+@media (min-width: 768px) {
+  .kid {
+    left: 50%; }
+
+  .dog {
+    left: 60%; } }
+@media (min-width: 992px) {
+  .kid {
+    left: 60%; }
+
+  .dog {
+    left: 70%; }
+
+  .fortune {
+    bottom: 200px;
+    left: 50%;
+    width: 180px; } }
