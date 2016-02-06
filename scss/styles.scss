@@ -11,7 +11,6 @@ $yellow: #FFDB7C;
 $primary-dark: #03475A;
 $primary-dark: #03475A;
 $primary-dark: #03475A;
-$primary-dark: #03475A;
 
 
 
@@ -19,14 +18,23 @@ html,
 body,
 .main {
 	height: 100%;
+	font-size: 1rem;
+
 }
 
+.weare {
+	background-color: $light-green;
+}
 
 .navbar-default {
 	background-color: $primary-light;
 	font-size:1.2em;
 	margin: 0;
 	border: none;
+}
+
+.patrick{
+  font-family: 'Patrick Hand SC', sans;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -36,10 +44,7 @@ body,
 	width: 100%;
 }
 
-.menu {
-	font-family: "growl";
-	letter-spacing: -6px;
-}
+
 .main .hero {
 	background-color: $primary-light;
 	width: 100%;
@@ -79,38 +84,38 @@ body,
 .kid {
 	width: 100px;
 	left: 20%;
-	bottom: 10%;
+	bottom: 25%;
 }
 .dog {
 	width: 110px;
 	left: 50%;
-	bottom: 10%;
+	bottom: 25%;
 }
 
 .fortune{
-	bottom:200px;
+	bottom:260px;
 	left: 50%;
 	width: 80px;
 }
 
 .city{
-	bottom: 200px;
+	bottom: 260px;
 }
 
 .roller{
-	bottom: 200px;
+	bottom: 260px;
 }
 
 .stage{
 	width:100px;
 	left:20px;
-	bottom: 180px;
+	bottom: 240px;
 }
 
 .crowd{
 	width:100px;
 	left:20px;
-	bottom: 150px;
+	bottom: 220px;
 }
 
 .balloons {
@@ -123,104 +128,81 @@ body,
 	width: 100%;
 	position: absolute;
 	text-align: center;
-	top: 150px;
+	top: 50px;
 	color: $primary-dark;
 }
-.btn-informes{
-	background-color: $yellow;
+.btn-informes,
+.btn-informes:link,
+.btn-informes:visited {
+	background-color: $light-green;
 	position: absolute;
-	top: 260px;
+	bottom: 60px;
+	border: 0;
 	left: 50%;
+	padding: 7px;
 	transform: translateX(-50%);
-}
-.growl{
-	font-family: "growl";
+	width: 80%;
+	font-size: 1.5rem;
+	text-decoration: underline;
+	transition: .3s;
+
 }
 
+.btn-informes:hover,
+.btn-informes:active,
+.btn-informes:focus{
+	background-color: darken( $light-green, 8% );
+}
+.bg_logo {
+	width:60%;
+	margin-top: 50px;
+}
 
+.festival {
+	margin: 100px 0 50px 0;
+	background: url("../img/bg_logo.svg") no-repeat center center;
+	font-size: 2.5rem;
+
+}
+
+.somos {
+	margin-bottom: 50px;
+}
+
+.mic,
+.ticket,
+.grad,
+.food,
+.wheel,
+.surprise{
+	width:60%;
+	margin-bottom: 50px;
+}
+.features {
+	margin-top: 100px;
+}
+.features h3 {
+	font-size: 2rem;
+	margin-bottom: 50px;
+
+
+}
+
+.icons {
+	margin-bottom: 50px;
+}
 
 @media (min-width: 667px){
-	.kid{
- 		left: 40%;
- 	}
-
- 	.dog{
- 		left:60%;
- 	}
-
-
- 	.fortune{
-	bottom: 200px;
-	left: 50%;
-	width: 130px;
-}
-
-
+	
 }
 
 @media (min-width: 768px) {
- 	.kid{
- 		left: 50%;
- 	}
-
- 	.dog{
- 		left:60%;
- 	}
-
-
- 	.fortune{
-	bottom: 200px;
-	left: 50%;
-	width: 130px;
-}
-
-	.stage{
-	width:300px;
-	left:20px;
-	bottom: 180px;
-}
-
- .crowd{
-	width:200px;
-	left:65px;
-	bottom: 120px;
-}
+ 	
 
 }
 
 @media (min-width: 992px) {
-	.kid{
- 		left: 60%;
- 	}
-
- 	.dog{
- 		left:70%;
- 	}
-
- 	.fortune{
-	bottom:200px;
-	left: 50%;
-	width: 180px;
-}
-
-	.stage{
-	width:400px;
-	left:20px;
-	bottom: 180px;
-}
-
-.crowd{
-	width:300px;
-	left:65px;
-	bottom: 80px;}
-
-.heading{
-	width: 30%;
-	text-align: left;
-	top: 150px;
-	right: 10px;
 	
-}
 
 }
 @media (min-width: 1200px) {
