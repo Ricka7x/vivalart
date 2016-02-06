@@ -97,10 +97,39 @@ body,
   top: 50px;
   color: #03475A; }
 
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6 {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.num1 {
+  background: url("../img/1.svg") no-repeat center; }
+
+.num2 {
+  background: url("../img/2.svg") no-repeat center; }
+
+.num3 {
+  background: url("../img/3.svg") no-repeat center; }
+
+.num4 {
+  background: url("../img/4.svg") no-repeat center; }
+
+.num5 {
+  background: url("../img/5.svg") no-repeat center; }
+
+.num6 {
+  background: url("../img/6.svg") no-repeat center; }
+
 .btn-informes,
 .btn-informes:link,
 .btn-informes:visited {
-  background-color: #88C445;
+  background-color: #7FD5E9;
   position: absolute;
   bottom: 60px;
   border: 0;
@@ -110,12 +139,14 @@ body,
   width: 80%;
   font-size: 1.5rem;
   text-decoration: underline;
-  transition: .3s; }
+  transition: .3s;
+  color: #fff; }
 
 .btn-informes:hover,
 .btn-informes:active,
 .btn-informes:focus {
-  background-color: #73aa36; }
+  background-color: #3ec0de;
+  color: #fff; }
 
 .bg_logo {
   width: 60%;
@@ -147,3 +178,9 @@ body,
 
 .icons {
   margin-bottom: 50px; }
+
+.heading-sponsors {
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2rem; }
