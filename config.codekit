@@ -91,6 +91,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63042,
+		"inputAbbreviatedPath": "\/img\/background.png",
+		"outputAbbreviatedPath": "\/img\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59978,
+		"inputAbbreviatedPath": "\/img\/background2.png",
+		"outputAbbreviatedPath": "\/img\/background2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/brands_0000_merik.png": {
 		"fileType": 32768,
 		"ignore": 0,

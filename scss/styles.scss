@@ -2,7 +2,7 @@ $color-primary: #CE3A53;
 $button-default: #CE3A53;
 $transition-default: .3s ease;
 
-//1.Base
+/*1.Base*/
 body,
 html{
   height: 100%;
@@ -17,10 +17,16 @@ nav{
 
 header{
 
-  background: url("../img/city.png")no-repeat center;
+  background: url("../img/background.png")no-repeat center;
   background-size: cover;
   overflow: hidden;
-  max-height: 530px;
+  max-height: 600px;
+
+}
+
+header img{
+
+  display: inline-block;
 
 }
 
@@ -118,13 +124,12 @@ button.default{
     color: #fff;
   }
 }
-// navigation
+/* navigation*/
 
 .navbar-default {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
-    -moz-transition: all .35s;
     transition: all .35s;
 }
 
@@ -165,7 +170,7 @@ button.default{
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: rgb(3, 71, 90);
         background-color: transparent;
     }
 
@@ -202,6 +207,7 @@ button.default{
   width: 100px;
   display: inline-block;
   float: left;
+  transition: $transition-default;
 }
 
 
@@ -209,6 +215,7 @@ button.default{
 
 .main-heading{
   margin-top: 80px;
+  -webkit-transition: $transition-default;
   transition: $transition-default;
 }
 
@@ -227,21 +234,49 @@ button.default{
   background: #fff;
 }
 
-.main-img{
-  width: 280%;
-  text-align: center;
-  margin-left: -250px;
-  margin-bottom: -10px;
+.kid{
+
+
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  -webkit-transition: $transition-default;
+  transition: $transition-default;
+}
+
+.rony{
+
+  width: 140px;
+  margin-top: 144px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: $transition-default;
   transition: $transition-default;
 
 }
 
 @media only screen and (min-width : 768px) {
-  .main-img{
-    width: 60%;
-    text-align: center;
-    margin-left: 300px;
-    margin-bottom: -10px;
+
+  .kid{
+
+
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    -webkit-transition: $transition-default;
+    transition: $transition-default;
+  }
+
+  .rony{
+
+    width: 140px;
+    margin-top: 124px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    -webkit-transition: $transition-default;
+    transition: $transition-default;
 
   }
 
@@ -255,17 +290,10 @@ button.default{
 
 
 @media (min-width: 300px) and (max-width: 599px) and (orientation: landscape) {
-  .main-img{
-   margin-top: -80px;
-   margin-left: -450px;
-  }
+}
 
- }
+ @media (min-width: 600px) and (max-width: 1413px) and (orientation: landscape) {
 
- @media (min-width: 600px) and (orientation: landscape) {
-   .main-img{
-    margin-top: -50px;
-   }
 
   }
 
@@ -273,7 +301,7 @@ button.default{
   color: #fff;
 }
 
-// sponsors
+/* sponsors*/
 .sponsors img{
   opacity: .5;
   margin: 0 auto 40px;
@@ -284,11 +312,12 @@ button.default{
     width: 50%;
   }
 }
-// end-sponsors
+/* end-sponsors*/
 
 
 .countdown{
-  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teplayac.svg")no-repeat center;
+  background:-webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teplayac.svg")no-repeat left center;
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teplayac.svg")no-repeat left center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -308,13 +337,14 @@ section.gallery{
 
 section.gallery img{
   opacity: .3;
+  -webkit-transition: $transition-default;
   transition: $transition-default;
   &:hover{
     opacity: 1;
   }
 }
 
-// video
+/* video*/
 
 .video-holder {
   position: absolute;
@@ -418,7 +448,8 @@ section.gallery img{
 .video-strip .pre-video i:hover {
   background: $color-primary;
   color: #fff;
-  transform: translateX(-8px) scale(1.2);
+  -webkit-transform: translateX(-8px) scale(1.2);
+          transform: translateX(-8px) scale(1.2);
 }
 .pre-video {
   transition: all 0.5s ease;
@@ -453,7 +484,8 @@ section.gallery img{
   -moz-transition: all 0.3s ease;
 }
 .iframe-holder i:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 iframe {
   border: none !important;
@@ -470,10 +502,11 @@ iframe {
   opacity: 1 !important;
 }
 
-//countdown
+/*countdown*/
 .countdown-row {
   display: block !important;
   width: 100%;
+
 }
 .countdown-row span {
   color: #fff;
@@ -495,10 +528,10 @@ iframe {
   font-size: 18px !important;
 }
 
-// galeria
+/* galeria*/
 
 .gallery-full{
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 
@@ -508,7 +541,7 @@ iframe {
 }
 
 
-// footer
+/* footer*/
 
 .icon{
   font-size: 300%;
@@ -558,17 +591,79 @@ iframe {
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-
+      .countdown-row{
+        width: 40%;
+        margin: 0 auto;
+      }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .logo{
+        width: 150px;
+        display: inline-block;
+        float: left;
+      }
 
+      .nav{
+        min-height: 70px;
+        transition: $transition-default;
+        }
+
+      .gallery-full{
+        padding-top: 70px;
+      }
+
+      .navbar-nav>li>a{
+        padding-top: 25px;
+      }
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-      .main-img{
-       margin-top: -150px;
+      .kid{
+
+
+        width: 100px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 800px;
+        -webkit-transition: $transition-default;
+        transition: $transition-default;
+      }
+
+      .rony{
+
+        width: 140px;
+        margin-top: 124px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        -webkit-transition: $transition-default;
+        transition: $transition-default;
+
+      }
+    }
+
+    @media only screen and (min-width : 1450px) {
+      .kid{
+
+
+        width: 200px;
+        margin-top: -100px;
+        margin-bottom: 20px;
+        margin-left: 800px;
+        -webkit-transition: $transition-default;
+        transition: $transition-default;
+      }
+
+      .rony{
+
+        width: 240px;
+        margin-top: 124px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        -webkit-transition: $transition-default;
+        transition: $transition-default;
+
       }
     }
