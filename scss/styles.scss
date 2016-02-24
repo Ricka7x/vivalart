@@ -207,6 +207,7 @@ button.default{
   width: 100px;
   display: inline-block;
   float: left;
+  -webkit-transition: $transition-default;
   transition: $transition-default;
 }
 
@@ -288,6 +289,10 @@ button.default{
 
 }
 
+a [data-filter]{
+  cursor: pointer;
+}
+
 
 @media (min-width: 300px) and (max-width: 599px) and (orientation: landscape) {
 }
@@ -311,15 +316,20 @@ button.default{
   .sponsors img{
     width: 50%;
   }
+
+  .countdown{
+     background-attachment: fixed; 
+  }
 }
 /* end-sponsors*/
 
 
 .countdown{
-  background:-webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teplayac.svg")no-repeat left center;
-  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teplayac.svg")no-repeat left center;
+
+  background:-webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/portada.jpg")no-repeat center;
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/portada.jpg")no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
+
 }
 
 .video i{
@@ -607,6 +617,7 @@ iframe {
 
       .nav{
         min-height: 70px;
+        -webkit-transition: $transition-default;
         transition: $transition-default;
         }
 
@@ -616,6 +627,12 @@ iframe {
 
       .navbar-nav>li>a{
         padding-top: 25px;
+      }
+
+      .countdown{
+
+        background-size: cover;
+        background-attachment: fixed;
       }
     }
 

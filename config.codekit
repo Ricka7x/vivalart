@@ -553,6 +553,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portada.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730313,
+		"inputAbbreviatedPath": "\/img\/portada.jpg",
+		"outputAbbreviatedPath": "\/img\/portada.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Screen Shot 2016-02-20 at 12.07.07 AM.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

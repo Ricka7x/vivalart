@@ -160,6 +160,7 @@ button.default {
   width: 100px;
   display: inline-block;
   float: left;
+  -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
 .main-heading {
@@ -214,6 +215,9 @@ button.default {
 
   .main-heading {
     margin-top: 200px; } }
+a [data-filter] {
+  cursor: pointer; }
+
 .countdown {
   color: #fff; }
 
@@ -224,13 +228,15 @@ button.default {
 
 @media only screen and (min-width: 768px) {
   .sponsors img {
-    width: 50%; } }
+    width: 50%; }
+
+  .countdown {
+    background-attachment: fixed; } }
 /* end-sponsors*/
 .countdown {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/teplayac.svg") no-repeat left center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/teplayac.svg") no-repeat left center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/portada.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/portada.jpg") no-repeat center;
+  background-size: cover; }
 
 .video i {
   font-size: 600%; }
@@ -470,13 +476,18 @@ iframe {
 
   .nav {
     min-height: 70px;
+    -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
 
   .gallery-full {
     padding-top: 70px; }
 
   .navbar-nav > li > a {
-    padding-top: 25px; } }
+    padding-top: 25px; }
+
+  .countdown {
+    background-size: cover;
+    background-attachment: fixed; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .kid {
