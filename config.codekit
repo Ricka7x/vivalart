@@ -102,6 +102,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/background1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82553,
+		"inputAbbreviatedPath": "\/img\/background1.png",
+		"outputAbbreviatedPath": "\/img\/background1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/background2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -109,6 +120,28 @@
 		"initialSize": 59978,
 		"inputAbbreviatedPath": "\/img\/background2.png",
 		"outputAbbreviatedPath": "\/img\/background2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71022,
+		"inputAbbreviatedPath": "\/img\/background3.jpg",
+		"outputAbbreviatedPath": "\/img\/background3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367775,
+		"inputAbbreviatedPath": "\/img\/bg.png",
+		"outputAbbreviatedPath": "\/img\/bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -201,6 +234,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/brands_0009_next.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12313,
+		"inputAbbreviatedPath": "\/img\/brands_0009_next.png",
+		"outputAbbreviatedPath": "\/img\/brands_0009_next.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brands_0010_medio.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9697,
+		"inputAbbreviatedPath": "\/img\/brands_0010_medio.png",
+		"outputAbbreviatedPath": "\/img\/brands_0010_medio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brands_0011_dale.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5436,
+		"inputAbbreviatedPath": "\/img\/brands_0011_dale.png",
+		"outputAbbreviatedPath": "\/img\/brands_0011_dale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brands_0012_vgm.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12536,
+		"inputAbbreviatedPath": "\/img\/brands_0012_vgm.png",
+		"outputAbbreviatedPath": "\/img\/brands_0012_vgm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brands_0013_totto.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5476,
+		"inputAbbreviatedPath": "\/img\/brands_0013_totto.png",
+		"outputAbbreviatedPath": "\/img\/brands_0013_totto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/camera.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -289,6 +377,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/img-festival\/2012\/festival10.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91865,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival10.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival11.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112957,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival11.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival12.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175088,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival12.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival13.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163519,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival13.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival14.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209076,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival14.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival15.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202318,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival15.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival16.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227311,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival16.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/img-festival\/2012\/festival2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -355,6 +520,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/img-festival\/2012\/festival8.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218377,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival8.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2012\/festival9.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115510,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2012\/festival9.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2012\/festival9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/img-festival\/2013\/festival1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -362,6 +549,28 @@
 		"initialSize": 112100,
 		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival1.jpg",
 		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival10.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121093,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival10.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival11.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132815,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival11.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -406,6 +615,50 @@
 		"initialSize": 97820,
 		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival5.jpg",
 		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival6.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195576,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival6.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival7.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123442,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival7.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival8.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112220,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival8.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2013\/festival9.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109530,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2013\/festival9.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2013\/festival9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -483,6 +736,72 @@
 		"initialSize": 115923,
 		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival1.jpg",
 		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival2.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247435,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival2.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival3.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191289,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival3.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival4.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190171,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival4.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival5.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240944,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival5.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216716,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival6.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-festival\/2015\/festival7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188920,
+		"inputAbbreviatedPath": "\/img\/img-festival\/2015\/festival7.jpg",
+		"outputAbbreviatedPath": "\/img\/img-festival\/2015\/festival7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

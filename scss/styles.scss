@@ -1,5 +1,5 @@
-$color-primary: #CE3A53;
-$button-default: #CE3A53;
+$color-primary: #2b4a7f;
+$button-default: #26c82c;
 $transition-default: .3s ease;
 
 /*1.Base*/
@@ -17,10 +17,10 @@ nav{
 
 header{
 
-  background: url("../img/background.png")no-repeat center;
+  background: url("../img/bg.png")no-repeat center;
   background-size: cover;
   overflow: hidden;
-  max-height: 600px;
+  max-height: 600px; 
 
 }
 
@@ -68,7 +68,9 @@ button {
   letter-spacing: 1px;
   font-weight: 700;
 }
-
+button a {
+  color: #fff;
+}
 button.rounded{
   border-radius: 40px;
 }
@@ -168,7 +170,31 @@ button.default{
     background-color: transparent;
 }
 
+#video{
+  color: #fff;
+  background: url("../img/teplayac.svg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#video i{
+  margin-bottom: 40px;
+}
+
+.gallery button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.controlls li{
+  margin-bottom: 20px;
+  text-align: center;
+
+}
 @media(min-width:768px) {
+
+    .navbar{
+      border: none;
+    }
     .navbar-default {
         border-color: rgb(3, 71, 90);
         background-color: transparent;
@@ -199,7 +225,7 @@ button.default{
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #eb3812;
+        color: $color-primary;
     }
   }
 
@@ -257,6 +283,9 @@ button.default{
 
 }
 
+
+
+
 @media only screen and (min-width : 768px) {
 
   .kid{
@@ -286,7 +315,6 @@ button.default{
   }
 
 
-
 }
 
 a [data-filter]{
@@ -295,11 +323,15 @@ a [data-filter]{
 
 
 @media (min-width: 300px) and (max-width: 599px) and (orientation: landscape) {
+
+  .kid{
+    margin-left: 250px;
+  }
 }
 
  @media (min-width: 600px) and (max-width: 1413px) and (orientation: landscape) {
-
-
+   
+  
   }
 
 .countdown{
@@ -308,7 +340,7 @@ a [data-filter]{
 
 /* sponsors*/
 .sponsors img{
-  opacity: .5;
+  opacity: .8;
   margin: 0 auto 40px;
 }
 
@@ -341,18 +373,7 @@ a [data-filter]{
     padding-left: 0;
 }
 
-section.gallery{
-  padding: 0;
-}
 
-section.gallery img{
-  opacity: .3;
-  -webkit-transition: $transition-default;
-  transition: $transition-default;
-  &:hover{
-    opacity: 1;
-  }
-}
 
 /* video*/
 
@@ -401,7 +422,7 @@ section.gallery img{
   }
 }
 #container .mix{
-	display: none;
+  display: none;
 }
 
 .video-strip {
@@ -544,12 +565,14 @@ iframe {
   padding-top: 50px;
 }
 
-
-.contact{
-
-  color: #000;
+.contact {
+  background: #081029;
+  color: #fff;
+  & h2,
+  & p{
+    color: #fff;
+  }
 }
-
 
 /* footer*/
 
@@ -557,23 +580,22 @@ iframe {
   font-size: 300%;
   color:$color-primary;
   margin-right: 20px;
+  display: inline-block;
 }
 
 .icons{
   margin-top: 20px;
 }
 
-.icon-social{
+a.icon-social{
   font-size: 150%;
   color: #000;
   margin-top: 20px;
   margin-bottom: 20px;
-
-
 }
 
-.icon-social:not(:last-child){
-  margin-right: 60px;
+a.icon-social:not(:last-child){
+  margin-right: 40px;
 }
 
 .contact .footer div{
@@ -586,7 +608,6 @@ iframe {
 
 .bottom{
   background-color: $color-primary;
-  margin-top: 40px;
 }
 
 /* Custom, iPhone Retina */
@@ -610,9 +631,10 @@ iframe {
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
       .logo{
-        width: 150px;
+        width: 130px;
         display: inline-block;
         float: left;
+        margin-top: 5px;
       }
 
       .nav{
@@ -623,7 +645,11 @@ iframe {
 
       .gallery-full{
         padding-top: 70px;
+        & li{
+          margin-top: 20px;
+        }
       }
+
 
       .navbar-nav>li>a{
         padding-top: 25px;
@@ -634,6 +660,22 @@ iframe {
         background-size: cover;
         background-attachment: fixed;
       }
+
+
+      section.gallery{
+  padding: 0;
+}
+ h2 {
+  margin-bottom: 80px;
+ }
+section.gallery img{
+  opacity: .3;
+  -webkit-transition: $transition-default;
+  transition: $transition-default;
+  &:hover{
+    opacity: 1;
+  }
+}
     }
 
     /* Large Devices, Wide Screens */

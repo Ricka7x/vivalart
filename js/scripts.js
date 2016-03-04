@@ -9,7 +9,14 @@
 //mixitup
 
 $(function(){
-  $('#container').mixItUp();
+  $('#container').mixItUp({
+    load: {
+      filter: '.category-1'
+    },
+    controls: {
+      toggleFilterButtons: false
+    }
+  });
 });
 
 

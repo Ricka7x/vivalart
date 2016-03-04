@@ -10,7 +10,7 @@ nav {
   width: 100%; }
 
 header {
-  background: url("../img/background.png") no-repeat center;
+  background: url("../img/bg.png") no-repeat center;
   background-size: cover;
   overflow: hidden;
   max-height: 600px; }
@@ -53,6 +53,9 @@ button {
   letter-spacing: 1px;
   font-weight: 700; }
 
+button a {
+  color: #fff; }
+
 button.rounded {
   border-radius: 40px; }
 
@@ -60,7 +63,7 @@ button.half-rounded {
   border-radius: 5px; }
 
 button.default {
-  background-color: #CE3A53; }
+  background-color: #26c82c; }
 
 button.block {
   display: block;
@@ -69,14 +72,14 @@ button.block {
 
 button.bordered-default {
   background-color: transparent;
-  border: 2px solid #CE3A53;
-  color: #CE3A53;
+  border: 2px solid #26c82c;
+  color: #26c82c;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
   button.bordered-default:focus {
     outline: 0; }
   button.bordered-default:hover {
-    background-color: #CE3A53;
+    background-color: #26c82c;
     color: #fff; }
 
 button.default {
@@ -86,7 +89,7 @@ button.default {
   button.default:focus {
     outline: 0; }
   button.default:hover {
-    background-color: #bf3048;
+    background-color: #22b327;
     color: #fff; }
 
 .main-btn {
@@ -95,7 +98,7 @@ button.default {
 
 .main-btn a {
   text-decoration: none;
-  color: #CE3A53; }
+  color: #2b4a7f; }
   .main-btn a:hover {
     color: #fff; }
 
@@ -121,18 +124,38 @@ button.default {
 
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #CE3A53; }
+  color: #2b4a7f; }
 
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #CE3A53 !important;
+  color: #2b4a7f !important;
   background-color: transparent; }
 
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent; }
 
+#video {
+  color: #fff;
+  background: url("../img/teplayac.svg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#video i {
+  margin-bottom: 40px; }
+
+.gallery button {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.controlls li {
+  margin-bottom: 20px;
+  text-align: center; }
+
 @media (min-width: 768px) {
+  .navbar {
+    border: none; }
+
   .navbar-default {
     border-color: #03475a;
     background-color: transparent; }
@@ -143,7 +166,7 @@ button.default {
 
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: #CE3A53; }
+    color: #2b4a7f; }
 
   .navbar-default.affix {
     border-color: rgba(34, 34, 34, 0.05);
@@ -155,7 +178,7 @@ button.default {
 
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #eb3812; } }
+    color: #2b4a7f; } }
 .logo {
   width: 100px;
   display: inline-block;
@@ -218,12 +241,15 @@ button.default {
 a [data-filter] {
   cursor: pointer; }
 
+@media (min-width: 300px) and (max-width: 599px) and (orientation: landscape) {
+  .kid {
+    margin-left: 250px; } }
 .countdown {
   color: #fff; }
 
 /* sponsors*/
 .sponsors img {
-  opacity: .5;
+  opacity: .8;
   margin: 0 auto 40px; }
 
 @media only screen and (min-width: 768px) {
@@ -244,16 +270,6 @@ a [data-filter] {
 .no-gutter > [class*=col-] {
   padding-right: 0;
   padding-left: 0; }
-
-section.gallery {
-  padding: 0; }
-
-section.gallery img {
-  opacity: .3;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease; }
-  section.gallery img:hover {
-    opacity: 1; }
 
 /* video*/
 .video-holder {
@@ -307,12 +323,12 @@ section.gallery img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid #CE3A53;
+  border: 2px solid #2b4a7f;
   text-align: center;
   padding-top: 20px;
   padding-left: 10px;
   font-size: 40px;
-  color: #CE3A53;
+  color: #2b4a7f;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -346,7 +362,7 @@ section.gallery img {
   opacity: 1; }
 
 .video-strip .pre-video i:hover {
-  background: #CE3A53;
+  background: #2b4a7f;
   color: #fff;
   -webkit-transform: translateX(-8px) scale(1.2);
   transform: translateX(-8px) scale(1.2); }
@@ -377,7 +393,7 @@ section.gallery img {
   display: inline-block;
   margin-bottom: 24px;
   font-size: 40px;
-  color: #CE3A53;
+  color: #2b4a7f;
   cursor: pointer;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -430,25 +446,29 @@ iframe {
   padding-top: 50px; }
 
 .contact {
-  color: #000; }
+  background: #081029;
+  color: #fff; }
+  .contact h2, .contact p {
+    color: #fff; }
 
 /* footer*/
 .icon {
   font-size: 300%;
-  color: #CE3A53;
-  margin-right: 20px; }
+  color: #2b4a7f;
+  margin-right: 20px;
+  display: inline-block; }
 
 .icons {
   margin-top: 20px; }
 
-.icon-social {
+a.icon-social {
   font-size: 150%;
   color: #000;
   margin-top: 20px;
   margin-bottom: 20px; }
 
-.icon-social:not(:last-child) {
-  margin-right: 60px; }
+a.icon-social:not(:last-child) {
+  margin-right: 40px; }
 
 .contact .footer div {
   margin-bottom: 20px; }
@@ -457,8 +477,7 @@ iframe {
   margin-top: 40px; }
 
 .bottom {
-  background-color: #CE3A53;
-  margin-top: 40px; }
+  background-color: #2b4a7f; }
 
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
@@ -470,9 +489,10 @@ iframe {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .logo {
-    width: 150px;
+    width: 130px;
     display: inline-block;
-    float: left; }
+    float: left;
+    margin-top: 5px; }
 
   .nav {
     min-height: 70px;
@@ -481,13 +501,28 @@ iframe {
 
   .gallery-full {
     padding-top: 70px; }
+    .gallery-full li {
+      margin-top: 20px; }
 
   .navbar-nav > li > a {
     padding-top: 25px; }
 
   .countdown {
     background-size: cover;
-    background-attachment: fixed; } }
+    background-attachment: fixed; }
+
+  section.gallery {
+    padding: 0; }
+
+  h2 {
+    margin-bottom: 80px; }
+
+  section.gallery img {
+    opacity: .3;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease; }
+    section.gallery img:hover {
+      opacity: 1; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .kid {
